@@ -36,7 +36,7 @@ load-module module-switch-on-port-available
 
 ### Automatically load the Pulseaudio Droid and check for custom config file
 .ifexists module-droid-card.so
-load-module module-droid-card rate=48000 voice_virtual_stream=true
+load-module module-droid-card rate=48000
 .endif
 
 .ifexists /etc/pulse/arm_droid_card_custom.pa
